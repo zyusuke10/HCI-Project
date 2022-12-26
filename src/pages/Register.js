@@ -28,7 +28,7 @@ const Register = () => {
       displayAlert();
     }
 
-    if (email || password || (isMember && username)) {
+    if ((email && password) || (isMember && username)) {
       navigate("/home");
     }
   };
@@ -69,9 +69,7 @@ const Register = () => {
           </div>
           <div className="register-main-input-submit">
             {showAlert ? (
-              <Link to="/home">
-                <button>{isMember ? "Login" : "Register"}</button>
-              </Link>
+              <button>{isMember ? "Login" : "Register"}</button>
             ) : (
               <button>{isMember ? "Login" : "Register"}</button>
             )}

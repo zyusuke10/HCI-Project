@@ -19,7 +19,10 @@ const useGeolocation = () => {
   const onError = (error) => {
     setLocation({
       loaded: true,
-      error,
+      coordinates: {
+        lat: "",
+        lng: "",
+      },
     });
   };
 
