@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter basename="/HCI-Project-Zport">
       <Routes>
-        <Route path="/" element={<SharedLayout />}>
+        <Route path="/HCI-Project-Zport/" element={<SharedLayout />}>
           <Route path="home" element={<MainPage />} />
           <Route path="home/specific" element={<SpecificEventPage />} />
           <Route path="profile" element={<Profile />} />
