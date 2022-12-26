@@ -1,0 +1,8 @@
+export const IS_MEMBER_HANDLER = "IS_MEMBER_HANDLER";
+export const SHOW_SIDEBAR = "SHOW_SIDEBAR";
+export const CLEAR_SIDEBAR = "CLEAR_SIDEBAR";
+export const DISPLAY_ALERT = "DISPLAY_ALERT";
+export const CLEAR_ALERT = "CLEAR_ALERT";
+export const GET_EVENT_DATA = "GET_EVENT_DATA";
+export const DISPLAY_SUCCESS = "DISPLAY_SUCCESS";
+

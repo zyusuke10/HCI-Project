@@ -1,0 +1,90 @@
+
+.register-container{
+  background-image: linear-gradient(#91ee8f, #c3ffc1, #ffffff);
+  height:100vh;
+}
+
+.register-header {
+  display: flex;
+  margin-left: 41px;
+  padding-top: 20px;
+}
+
+.register-header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: white;
+  margin-left: 6px;
+}
+
+.register-main {
+  margin-top: 132px;
+  margin-left: 44px;
+}
+
+.register-main-title {
+  color: #5d655e;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 23px;
+}
+
+.register-main-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.register-main-input input {
+  width: 255px;
+  height: 47px;
+  border: none;
+  border-radius: 5px;
+  margin-left: -40px;
+  padding-left: 5px;
+}
+
+.register-main-input-submit {
+  margin-top: 23px;
+  margin-left: 25px;
+}
+
+.register-main-input-submit:hover {
+  opacity: 0.7;
+}
+
+.register-main-input-submit button {
+  width: 255px;
+  height: 47px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.47);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.register-main-input-submit p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(93, 101, 94, 1);
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.register-main-input-submit span {
+  color: rgba(88, 127, 228, 1);
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 13px;
+}
+
+.MuiAlert-standard {
+  width: 230px;
+  margin-right:40px;
+}

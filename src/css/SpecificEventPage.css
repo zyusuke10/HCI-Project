@@ -1,0 +1,174 @@
+.specificEvent-details-container-dark {
+  background-color: #1a1919;
+  color: #999;
+  transition: background-color 0.25s ease-in-out;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: -40px;
+  z-index: 1;
+  height: 700px;
+}
+
+.specificEvent-image {
+  z-index: -1;
+  position: relative;
+}
+
+.specificEvent-image img {
+  width: 390px;
+  height: 287px;
+}
+
+.specificEvent-close-icon {
+  position: absolute;
+  left: 355px;
+  top: 10px;
+  color: white;
+}
+
+.specificEvent-details-container {
+  background-color: white;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin-top: -40px;
+  z-index: 1;
+  height: 700px;
+}
+
+.specificEvent-title {
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.specificEvent-desc {
+  padding: 27px;
+}
+
+.specificEvent-desc h5 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-top: -30px;
+}
+
+.specificEvent-desc p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -20px;
+}
+
+.specificEvent-details {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  margin-top: 13px;
+}
+
+.specificEvent-location {
+  display: flex;
+  align-items: center;
+  margin-top: -50px;
+  margin-left: 28px;
+}
+
+.specificEvent-location img {
+  margin-right: 13px;
+  width: 28px;
+  height: 27px;
+}
+
+.specificEvent-phone {
+  display: flex;
+  align-items: center;
+  margin-top: -25px;
+  margin-left: 25px;
+}
+
+.specificEvent-phone img {
+  margin-right: 13px;
+  width: 33px;
+  height: 36px;
+}
+
+.specificEvent-time {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-left: 27px;
+}
+
+.specificEvent-time img {
+  margin-right: 13px;
+  width: 32px;
+  height: 33px;
+}
+
+.specificEvent-price {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-left: 16px;
+}
+
+.specificEvent-price img {
+  margin-right: 13px;
+  width: 49px;
+  height: 49px;
+}
+
+.addTicket-container {
+  background-color: rgba(60, 215, 94, 1);
+  width: 309px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-left: 44px;
+}
+
+.addTicket-container-dark {
+  background-color: #07893f;
+  width: 309px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  transition: background-color 0.25s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-left: 44px;
+}
+
+.addTicket-container-dark:hover{
+  background-color: #0ab453;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.dark-mode-text {
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode-text2 {
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}

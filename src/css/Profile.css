@@ -1,0 +1,219 @@
+.profile-container {
+  background-image: linear-gradient(#91ee8f, #c3ffc1, #ffffff);
+  height: 100vh;
+}
+
+.profile-container-dark {
+  background-color: #1a1919;
+  color: #999;
+  transition: background-color 0.25s ease-in-out;
+  height: 100vh;
+}
+
+.profile-header {
+  margin-left: 32px;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.profile-header-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-header-avatar img {
+  width: 83px;
+  height: 89px;
+}
+
+.profile-header-avatar p {
+  font-size: 32px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -3px;
+}
+
+.profile-main-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.7);
+  margin-left: 33px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profile-main-tickets-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 280px;
+  overflow: scroll;
+  margin-top: 10px;
+}
+
+.ticket {
+  background-color: white;
+  width: 343px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+}
+
+.ticket-info {
+  margin-left: 17px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.ticket-info h4 {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+}
+
+.ticket-info-location {
+  display: flex;
+  flex-direction: row;
+  margin-top: -10px;
+}
+
+.ticket-info-location p {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.41px;
+  color: rgba(0, 0, 0, 1);
+  font-family: "Montserrat", sans-serif;
+}
+
+.ticket-info-location img {
+  margin-right: 20px;
+}
+
+.ticket-QRCode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  border-left: dashed black 1px;
+}
+
+.ticket-QRCode img {
+  width: 73px;
+  height: 73px;
+}
+
+.profile-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.profile-footer-dark {
+  background-color: #1a1919;
+  color: #999;
+  transition: background-color 0.25s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.profile-footer-btn1 {
+  background-color: rgba(0, 0, 0, 0.47);
+  width: 353px;
+  height: 60px;
+  margin-bottom: 25px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profile-footer-btn1-dark {
+  background-color: rgba(106, 105, 105, 0.47);
+  width: 353px;
+  height: 60px;
+  margin-bottom: 25px;
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.profile-footer-btn1 h5 {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profile-footer-btn2 {
+  background-color: rgba(60, 215, 94, 1);
+  width: 353px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profile-footer-btn2-dark {
+  background-color: #07893f;
+  width: 353px;
+  height: 60px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.profile-footer-btn2-dark:hover {
+  background-color: #0ab453;
+}
+
+.profile-footer-btn2 h5 {
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.profile-footer-btn2 a {
+  text-decoration: none;
+}
+
+.dark-mode-text {
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode-text {
+  color: white;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
