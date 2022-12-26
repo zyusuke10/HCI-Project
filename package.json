@@ -1,7 +1,7 @@
 {
   "name": "zport",
   "version": "0.1.0",
-  "homepage": "https://zyusuke10.github.io/zport",
+  "homepage": "https://github.com/zyusuke10/zport.git",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
