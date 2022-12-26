@@ -10,7 +10,7 @@ import Payment from "./pages/Payment";
 import SpecificEventPage from "./pages/SpecificEventPage";
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route path="home" element={<MainPage />} />
