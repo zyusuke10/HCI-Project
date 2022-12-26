@@ -12,12 +12,12 @@ function App() {
   return (
     <BrowserRouter basename="/HCI-Project-Zport">
       <Routes>
-        <Route path="/HCI-Project-Zport" element={<SharedLayout />}>
-          <Route path="/home" element={<MainPage />} />
-          <Route path="/home/specific" element={<SpecificEventPage />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/profile/payment" element={<Payment />} />
-          <Route path="/addEvent" element={<NewEvent />} />
+        <Route path="HCI-Project-Zport" element={<SharedLayout />}>
+          <Route path="home" element={<MainPage />} />
+          <Route path="home/specific" element={<SpecificEventPage />} />
+          <Route path="profile" element={<Profile />} />
+          <Route path="profile/payment" element={<Payment />} />
+          <Route path="addEvent" element={<NewEvent />} />
         </Route>
         <Route index element={<Landing />} />
         <Route path="register" element={<Register />} />
