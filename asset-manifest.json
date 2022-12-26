@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/HCI-Project-Zport/static/css/main.7774704c.css",
+    "main.css": "/HCI-Project-Zport/static/css/main.5bd34acd.css",
     "main.js": "/HCI-Project-Zport/static/js/main.4db79aaa.js",
     "static/media/landing-main.svg": "/HCI-Project-Zport/static/media/landing-main.bc2bd6915e90c6b0032010cd3233b7f2.svg",
     "static/media/QRCode.svg": "/HCI-Project-Zport/static/media/QRCode.10a8a47c21439d781a999531c8508da9.svg",
@@ -21,11 +21,11 @@
     "static/media/logout.svg": "/HCI-Project-Zport/static/media/logout.5b2a74aed9dd902fac3368cc395ebc1e.svg",
     "static/media/menu.svg": "/HCI-Project-Zport/static/media/menu.7b4199fe60a28ff31f5f29723314c22a.svg",
     "static/media/arrow.svg": "/HCI-Project-Zport/static/media/arrow.3f944145f44e18a051c050e01f982cfb.svg",
-    "main.7774704c.css.map": "/HCI-Project-Zport/static/css/main.7774704c.css.map",
+    "main.5bd34acd.css.map": "/HCI-Project-Zport/static/css/main.5bd34acd.css.map",
     "main.4db79aaa.js.map": "/HCI-Project-Zport/static/js/main.4db79aaa.js.map"
   },
   "entrypoints": [
-    "static/css/main.7774704c.css",
+    "static/css/main.5bd34acd.css",
     "static/js/main.4db79aaa.js"
   ]
 }
