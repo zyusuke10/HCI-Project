@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {Routes, Route, HashRouter } from "react-router-dom";
 import Landing from "./pages/LandingPage";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
@@ -10,9 +10,9 @@ import Payment from "./pages/Payment";
 import SpecificEventPage from "./pages/SpecificEventPage";
 function App() {
   return (
-    <BrowserRouter basename="/HCI-Project-Zport/HCI-Project-Zport">
+    <HashRouter basename="/">
       <Routes>
-        <Route path="/HCI-Project-Zport" element={<SharedLayout />}>
+        <Route path="/" element={<SharedLayout />}>
           <Route path="home" element={<MainPage />} />
           <Route path="home/specific" element={<SpecificEventPage />} />
           <Route path="profile" element={<Profile />} />
@@ -22,7 +22,7 @@ function App() {
         <Route index element={<Landing />} />
         <Route path="register" element={<Register />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
