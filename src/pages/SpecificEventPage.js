@@ -17,7 +17,7 @@ const SpecificEventPage = () => {
     <div className="specificEventPage-container">
       <Link to="/home">
         <img
-          src={darkMode ? whiteCloseIcon : closeIcon}
+          src={whiteCloseIcon}
           alt="close"
           className="specificEvent-close-icon"
         />
