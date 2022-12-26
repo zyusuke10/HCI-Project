@@ -1,5 +1,5 @@
 import "./App.css";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Landing from "./pages/LandingPage";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
@@ -10,7 +10,7 @@ import Payment from "./pages/Payment";
 import SpecificEventPage from "./pages/SpecificEventPage";
 function App() {
   return (
-    <HashRouter>
+ 
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route path="home" element={<MainPage />} />
@@ -22,7 +22,6 @@ function App() {
         <Route index element={<Landing />} />
         <Route path="register" element={<Register />} />
       </Routes>
-    </HashRouter>
   );
 }
 
