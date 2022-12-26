@@ -253,9 +253,10 @@
   transition: background-color 0.25s ease-in-out;
 }
 
-.light-mode-text {
+.light-mode-text5 {
   height: 100%;
   transition: background-color 0.25s ease-in-out;
+  color: rgba(0, 0, 0, 0.4);
 }
 
 .dialog10 {

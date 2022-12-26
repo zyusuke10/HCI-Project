@@ -97,27 +97,27 @@ const Payment = () => {
         }
       >
         <div className="payment-card-details-1">
-          <h4 className={darkMode ? "dark-mode-text" : "light-mode-text"}>
+          <h4 className={darkMode ? "dark-mode-text" : "light-mode-text5"}>
             CARD NUMBER
           </h4>
           <input type="text" />
         </div>
         <div className="payment-card-details-2">
           <div className="expire">
-            <h4 className={darkMode ? "dark-mode-text" : "light-mode-text"}>
+            <h4 className={darkMode ? "dark-mode-text" : "light-mode-text5"}>
               EXPIRATION DATE
             </h4>
             <input type="text" />
           </div>
           <div className="cvv">
-            <h4 className={darkMode ? "dark-mode-text" : "light-mode-text"}>
+            <h4 className={darkMode ? "dark-mode-text" : "light-mode-text5"}>
               CVV
             </h4>
             <input type="text" />
           </div>
         </div>
         <div className="payment-card-details-3">
-          <h4 className={darkMode ? "dark-mode-text" : "light-mode-text"}>
+          <h4 className={darkMode ? "dark-mode-text" : "light-mode-text5"}>
             CARD HOLDER'S NAME
           </h4>
           <input type="text" />
